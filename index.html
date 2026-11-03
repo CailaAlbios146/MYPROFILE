@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050b08">
+  <title>Gail Caila Albios — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- NAVIGATION -->
+    <nav>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#exploration">Exploration</a></li>
+        <li><a href="#certificates">Achievements</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Gail Caila Albios</h1>
+        <p class="role">Full-Stack Developer &amp; IT Student</p>
+
+        <div class="terminal-banner">
+          <span class="terminal-dot"></span>
+          <span>ellexieskyryllenetorres@gmail.com</span>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="portrait-wrapper">
+        <div class="silky-portrait">
+          <img src="pp.jpg" alt="Gail Caila Albios">
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="section">
+        <h2 class="section-label">About Me</h2>
+
+        <div class="about-card">
+          <p class="about-description">
+            Hello! I'm <strong>Gail Caila Albios</strong>, a dedicated developer
+            pursuing my Information Technology degree at
+            <strong>ACLC College of Mandaue</strong>. I focus on developing
+            clean system architectures, real-time tracking solutions, and
+            automated workflows.
+          </p>
+
+          <div class="about-grid">
+            <div class="info-item">
+              <span class="info-label">Education</span>
+              <span class="info-value">ACLC College of Mandaue</span>
+            </div>
+
+            <div class="info-item">
+              <span class="info-label">Email</span>
+              <span class="info-value">
+                <a href="mailto:ellexieskyryllenetorres@gmail.com">
+                  ellexieskyryllenetorres@gmail.com
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TOOLS SECTION -->
+      <section id="tools" class="section">
+        <h2 class="section-label">Tools &amp; Technologies</h2>
+
+        <div class="tools-grid">
+          <span class="tool-tag">VS Code</span>
+          <span class="tool-tag">NetBeans</span>
+          <span class="tool-tag">XAMPP (MySQL)</span>
+          <span class="tool-tag">Docker</span>
+          <span class="tool-tag">CI/CD</span>
+          <span class="tool-tag">Nginx</span>
+          <span class="tool-tag">Prometheus</span>
+          <span class="tool-tag">Grafana</span>
+          <span class="tool-tag">Terraform</span>
+          <span class="tool-tag">Swagger</span>
+        </div>
+      </section>
+
+      <!-- LEARNING ROADMAP -->
+      <section id="exploration" class="section">
+        <h2 class="section-label">2nd Year Learning &amp; Exploration Roadmap</h2>
+
+        <div class="roadmap-grid">
+
+          <div class="roadmap-card">
+            <span class="roadmap-badge">JavaScript Mastery</span>
+            <h3>Advanced JS &amp; DOM Architecture</h3>
+            <p>
+              Deep-diving into asynchronous JavaScript (Promises,
+              async/await), closures, ES6+ modules, and clean
+              component-driven event handling.
+            </p>
+          </div>
+
+          <div class="roadmap-card">
+            <span class="roadmap-badge">System Design</span>
+            <h3>RESTful APIs &amp; Documentation</h3>
+            <p>
+              Designing robust backend endpoints, mastering HTTP status
+              protocols, and writing clean interactive API documentation
+              using Swagger.
+            </p>
+          </div>
+
+          <div class="roadmap-card">
+            <span class="roadmap-badge">DevOps &amp; Infrastructure</span>
+            <h3>Containerization &amp; Deployment</h3>
+            <p>
+              Exploring Docker container workflows, Nginx reverse proxy
+              configurations, and automated CI/CD deployment pipelines
+              for web systems.
+            </p>
+          </div>
+
+          <div class="roadmap-card">
+            <span class="roadmap-badge">Observability</span>
+            <h3>Metrics, Monitoring &amp; IaC</h3>
+            <p>
+              Experimenting with Prometheus and Grafana for system health
+              metrics, alongside Infrastructure as Code basics using Terraform.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+<!-- Certificates & Achievements Section -->
+        <section id="certificates" class="section">
+          <h2 class="section-label">Certificates &amp; Achievements</h2>
+          <div class="projects-grid">
+            <article class="card">
+              <div>
+                <!-- Certificate thumbnail image preview -->
+                <div class="certificate-thumbnail">
+                  <img src="certi.png" alt="Robotics Bootcamp Certificate" />
+                </div>
+                <h3>3-Day Robotics Bootcamp</h3>
+                <p>Successfully completed the intensive bootcamp covering Electronics Fundamentals, Circuits, Arduino Basics, and Hands-on Arduino Projects at ACLC College of Mandaue.</p>
+              </div>
+              <button
+                class="card-link"
+                type="button"
+                data-action="open-certificate"
+                data-title="3-Day Robotics Bootcamp Certificate"
+                data-description="Successfully completed the intensive 3-Day Robotics Bootcamp on October 6-8, 2026, acknowledging foundational knowledge in Electronics Fundamentals, Circuits, Arduino Basics and Hands-on Arduino Project at ACLC College of Mandaue."
+                data-image="certi.png"
+              >
+                View Certificate
+              </button>
+            </article>
+          </div>
+        </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="section">
+        <h2 class="section-label">Featured Projects</h2>
+
+        <div class="projects-grid">
+
+          <article class="card">
+            <div>
+              <h3>Student Monitoring Management</h3>
+              <p>
+                Monitors how many students are inside the school premises
+                in real time with quick status tracking.
+              </p>
+            </div>
+
+            <button
+              class="card-link"
+              type="button"
+              data-action="open-project"
+              data-title="Student Monitoring Management"
+              data-description="A real-time tracking solution built to monitor campus premises occupancy, utilizing clean database queries and responsive interface components."
+            >
+              View project
+            </button>
+          </article>
+
+          <article class="card">
+            <div>
+              <h3>HRIS</h3>
+              <p>
+                Manages comprehensive employee data so administrative teams
+                can make better decisions about workplace operations.
+              </p>
+            </div>
+
+            <button
+              class="card-link"
+              type="button"
+              data-action="open-project"
+              data-title="HRIS (Human Resource Information System)"
+              data-description="Streamlines employee records, attendance tracking, and administrative operations with structured database integration and secure authentication."
+            >
+              View project
+            </button>
+          </article>
+
+          <article class="card">
+            <div>
+              <h3>MLMS</h3>
+              <p>
+                Captures loan applications and runs reliable credit and
+                identity verification checks securely.
+              </p>
+            </div>
+
+            <button
+              class="card-link"
+              type="button"
+              data-action="open-project"
+              data-title="MLMS (Money Lending Management System)"
+              data-description="Automates borrower tracking, loan approvals, and secure verification workflows with an optimized backend architecture."
+            >
+              View project
+            </button>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- CONTACT AND FOOTER -->
+    <footer id="contact">
+
+      <p class="section-label contact-heading">
+        Get in Touch
+      </p>
+
+      <div class="contact">
+
+        <a href="mailto:ellexieskyryllenetorres@gmail.com">
+          ✉ Send Email
+        </a>
+
+        <a
+          href="https://github.com/CailaAlbios146"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Profile
+        </a>
+
+        <!-- Replace YOUR_USERNAME with your Instagram username -->
+        <a
+          href="https://www.instagram.com/YOUR_USERNAME/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+        </a>
+
+        <button data-action="copy-email" type="button">
+          Copy Email Address
+        </button>
+
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="copyright">
+        <p>
+          &copy; <span id="copyrightYear"></span>
+          Gail Caila Albios. All Rights Reserved.
+        </p>
+
+        <p class="made-with">
+          Designed &amp; Developed with 💚
+        </p>
+      </div>
+
+    </footer>
+  </div>
+
+ <!-- PROJECT MODAL -->
+    <div
+      id="projectModal"
+      class="modal-overlay"
+    >
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div id="modalImageContainer">
+          
+        <!-- Interactive Project / Certificate Modal Popup -->
+    <div id="projectModal" class="modal-overlay">
+      <div class="modal">
+        <div id="modalImageContainer"></div>
+        <h3 id="modalTitle">Title</h3>
+        <p id="modalDesc">Description</p>
+        <button class="modal-close" data-action="close-modal" type="button">Close</button>
+      </div>
+    </div>
+
+        </div>
+        <h3 id="modalTitle">Project Title</h3>
+        <p id="modalDesc">Project description goes here.</p>
+        <button
+          class="modal-close"
+          data-action="close-modal"
+          type="button"
+        >
+          Close
+        </button>
+      </div>
+    </div>>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <span>✓</span>
+    <span id="toast-message">Email address copied to clipboard!</span>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+```
